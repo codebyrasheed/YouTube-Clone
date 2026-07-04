@@ -1,0 +1,1114 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+
+	<title>Youtube.com Clone</title>
+	<link rel="stylesheet" href="styles/general.css">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/sidebar.css">
+	<link rel="stylesheet" href="styles/video.css">
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="left-section">
+			<img class="hamburger-menu" src="icons/hamburger-menu.svg">
+			<img class="youtube-logo" src="icons/youtube-logo.svg">
+		</div>
+		<div class="middle-section">
+			<input class="search-bar" type="text" placeholder="Search" />
+			<button class="search-button">
+				<img class="search-icon" src="icons/search.svg">
+				<div class="tooltip">Search</div>
+			</button>
+
+			<button class="voice-search-button">
+				<img class="voice-search-icon" src="icons/voice-search-icon.svg">
+				<div class="tooltip">Search with your voice</div>
+			</button>
+		</div>
+
+		<div class="right-section">
+			<div class="upload-icon-container">
+				<img class="upload-icon" src="icons/upload.svg">
+				<div class="tooltip">Create</div>
+			</div>
+
+			<div class="youtube-icon-container">
+				<img class="youtube-icon" src="icons/youtube-apps.svg">
+				<div class="tooltip">YouTube</div>
+			</div>
+
+
+			<div class="notifications-icon-container">
+				<div class="notification-box">
+					<img class="notification-icon" src="icons/notifications.svg">
+					<div class="tooltip">Notifications</div>
+				</div>
+
+				<div class="notifications-count">4</div>
+			</div>
+
+			<div class="user-img-container">
+				<img class="current-user-picture" src="images/Pika.jpeg">
+				<div class="tooltip">User Logo</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- side-bar -->
+	<div class="sidebar">
+		<div class="sidebar-link">
+			<img src="icons/home.svg">
+			<div>Home</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="icons/explore.svg">
+			<div>Explore</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="icons/subscriptions.svg">
+			<div>Subscriptions</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="icons/originals.svg">
+			<div>Originals</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="icons/youtube-music.svg">
+			<div>YouTube Music</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="icons/library.svg">
+			<div>Library</div>
+		</div>
+	</div>
+
+	<div class="video-grid">
+		<!-- c1 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/n2RNcPRtAiY?si=sx67JkkWnQwFcYss" target="_blank">
+					<img src="channel-pictures/c1-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">14:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@mkbhd?si=4zFYd-3ItraHUP7x">
+							<img class="profile-picture" src="channel-pictures/c1.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c1.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Maria Fare</p>
+								<p class="tooltip-subscribers-count">12M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/n2RNcPRtAiY?si=sx67JkkWnQwFcYss">
+							People Don't Care | Maria Fare
+						</a>
+					</p>
+					<p class="video-author">Maria Fare</p>
+					<p class="video-stats">30M views &#183; 6 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c2 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://www.youtube.com/watch?v=_CfxZIcTawM" target="_blank">
+					<img src="channel-pictures/c2-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">12:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@realwillpowerstar?si=6JEveNbovEEdFbdm" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c2.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c2.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">The Will Power Star</p>
+								<p class="tooltip-subscribers-count">5.4M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://www.youtube.com/watch?v=_CfxZIcTawM" target="_blank">Forget the
+							Gold After
+							this! 🤯</a>
+					</p>
+					<p class="video-author">The Will Power Star</p>
+					<p class="video-stats">18.9M views &#183; 10days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c3 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/Vj2Q_11tol0?si=dUwnV2sELxY0u3lG" target="_blank">
+					<img src="channel-pictures/c3-thumbnail.avif" class="thumbnails" />
+				</a>
+
+				<div class="video-time">8:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@chessbaseindiachannel?si=9CsPTAtAPab7t8bM" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c3.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c3.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Chess Lords</p>
+								<p class="tooltip-subscribers-count">8.6M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/Vj2Q_11tol0?si=dUwnV2sELxY0u3lG" target="_blank">
+							Gukesh vs Divya Deshmukh Chess Championships Finala 🔥
+						</a>
+					</p>
+					<p class="video-author">Chess Lords</p>
+					<p class="video-stats">29M views &#183; 4 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c4 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/An_jxT4xyfA?si=CHn4jBXPQd5KLaSA" target="_blank">
+					<img src="channel-pictures/c4-thumbnail.avif" class="thumbnails" />
+				</a>
+
+				<div class="video-time">16:56</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@seeken?si=6lRE_RMobxYoRmLq" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c4.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c4.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Motivation Labs</p>
+								<p class="tooltip-subscribers-count">2.6M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/An_jxT4xyfA?si=CHn4jBXPQd5KLaSA" target="_blank">
+							How to Enjoy the Boredom? & Start loving it!
+						</a>
+					</p>
+					<p class="video-author">Motivation Labs</p>
+					<p class="video-stats">1M views &#183; 2years ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c5 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/CrdDKEs28cw?si=8I85ESmov540Z-Oe" target="_blank">
+					<img src="channel-pictures/c5-thumbnail.avif" class="thumbnails" />
+				</a>
+
+				<div class="video-time">5:00</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@sahilandsarra?si=TD5N-n9vC76scvuP" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c5.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c5.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Power Couple</p>
+								<p class="tooltip-subscribers-count">1.2M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/CrdDKEs28cw?si=8I85ESmov540Z-Oe" target="_blank"> How to
+							learn
+							different things
+							Faster?</a>
+
+					</p>
+					<p class="video-author">Power Couple</p>
+					<p class="video-stats">4M views &#183; 1year ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c6 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/qAxCty2RWe0?si=jT1tEauCJ1sO4Nu4" target="_blank">
+					<img src="channel-pictures/c6.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">9:00</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@srpay?si=Bwd2l8-GgZoWfZdj" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c6.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c6.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">SR Pay</p>
+								<p class="tooltip-subscribers-count">100M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/qAxCty2RWe0?si=jT1tEauCJ1sO4Nu4" target="_blank">
+							Haunted House of Nimbassa City ☠️
+						</a>
+
+					</p>
+					<p class="video-author">SR Pay</p>
+					<p class="video-stats">100M views &#183; 15days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c7 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/XH1G58QqPIM?si=x5H6zWRCXUvLP-5D" target="_blank">
+					<img src="channel-pictures/c7-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">19:33</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@coding2go?si=YQOsPrYbRCobuZsA" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c7.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c7.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Coding2GO</p>
+								<p class="tooltip-subscribers-count">250K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/XH1G58QqPIM?si=x5H6zWRCXUvLP-5D" target="_blank">
+							CSS Can Now Animate Between Pages
+						</a>
+
+					</p>
+					<p class="video-author">Coding2GO</p>
+					<p class="video-stats">1M views &#183; 7days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c8 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/MevKTPN4ozw?si=KmcxLHkbMjvhzAhc" target="_blank">
+					<img src="channel-pictures/c8-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">16:00</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@mkbhd?si=BHh_VB2N9Tyt0laQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c8.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c8.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Marques Brownlee</p>
+								<p class="tooltip-subscribers-count">12M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/MevKTPN4ozw?si=KmcxLHkbMjvhzAhc" target="_blank">
+							Talking Tech with Elon Musk!
+						</a>
+
+					</p>
+					<p class="video-author">Marques Brownlee</p>
+					<p class="video-stats">81M views &#183; 10years ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c9 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/Ldnc7FOjCI4?si=4-RssD33WzK-OMRS" target="_blank">
+					<img src="channel-pictures/c9-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">14:10</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@emmytcnr?si=Si2btwRroMnhfoo3" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c9.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c9.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Emmy Verdana</p>
+								<p class="tooltip-subscribers-count">204K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/Ldnc7FOjCI4?si=4-RssD33WzK-OMRS" target="_blank">
+							I want a 9-5 job (as a gen z)
+						</a>
+
+					</p>
+					<p class="video-author">Emmy Verdana</p>
+					<p class="video-stats">262K views &#183; 3 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c10 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/cXEv82rx6BY?si=9NkBx7YvzmjmBshG" target="_blank">
+					<img src="channel-pictures/c10-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">9:00</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@nicandrovisionmotivation?si=EvI1VatnoVjL5NQe" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c10.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c10.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Nicand Motivation</p>
+								<p class="tooltip-subscribers-count">13M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/cXEv82rx6BY?si=9NkBx7YvzmjmBshG" target="_blank">
+							Bodybuilding Motivation - NEVER QUIT MENTALITY
+						</a>
+
+					</p>
+					<p class="video-author">Nicand Motivation</p>
+					<p class="video-stats">7.4M views &#183; 3years ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c11 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/iZ78G3BhDyc?si=VKtFTK25QophPE7B" target="_blank">
+					<img src="channel-pictures/c11-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">19:00</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@alim.ventures?si=BwDv5guNdtQCjmRm" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c11.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c11.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Alim Charaniya</p>
+								<p class="tooltip-subscribers-count">878K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/iZ78G3BhDyc?si=VKtFTK25QophPE7B" target="_blank">
+							FlutterFlow + Firebase + Flutter Programming Full 3+ Hour Course (Build Any App After
+							Watching This)
+						</a>
+
+					</p>
+					<p class="video-author">Alim Charaniya</p>
+					<p class="video-stats">13M views &#183; 1 month ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c12 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/c6yyCCoJamQ?si=hJzYj3dpRdncpBu_" target="_blank">
+					<img src="channel-pictures/c12-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@theempowermente?si=PVta_TjzzuPsdjvQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c12.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c12.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Empowerment Edge</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/c6yyCCoJamQ?si=hJzYj3dpRdncpBu_" target="_blank">
+							The Mindset That Will Change Your Life ☠️
+						</a>
+
+					</p>
+					<p class="video-author">Empowerment Edge</p>
+					<p class="video-stats">1M views &#183; 3 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c13 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/ZpPiZiqWjyA?si=VuSaX6sVbhRqGchk" target="_blank">
+					<img src="channel-pictures/c13-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@nothingtechnology?si=IX3DV7oqu8RW7_GP" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c13.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c13.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Nothing</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/ZpPiZiqWjyA?si=VuSaX6sVbhRqGchk" target="_blank">
+							We made YOUR Dream Phone!
+						</a>
+
+					</p>
+					<p class="video-author">Nothing</p>
+					<p class="video-stats">49M views &#183; 3 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c14 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/AxI39FCnuec?si=qGw067Jzt6SRgvcl" target="_blank">
+					<img src="channel-pictures/c14-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@championsmentality365?si=USgxb5y6qVwcZSRj" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c14.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c14.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Champions Mentality 365</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/AxI39FCnuec?si=qGw067Jzt6SRgvcl" target="_blank">
+							The Only 15 Minutes You Need To Become Mentally Unbreakable | David Goggins
+						</a>
+
+					</p>
+					<p class="video-author">Champions Mentality 365</p>
+					<p class="video-stats">1.2M views &#183; 1 day ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c15 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/OhRHDjHMuJU?si=aAnEYs28LoZWnN-v" target="_blank">
+					<img src="channel-pictures/c15-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@wscubetech?si=oD2hptVwvgmwCRo0" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c15.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c15.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">WsCube Tech</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/OhRHDjHMuJU?si=aAnEYs28LoZWnN-v" target="_blank">
+							AI Video Editing with Gemini Omni in FREE
+						</a>
+
+					</p>
+					<p class="video-author">WsCube Tech</p>
+					<p class="video-stats">2.3M views &#183; 9 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c16 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/piKJOD2s8KY?si=FNyJu0sg7S8moekw" target="_blank">
+					<img src="channel-pictures/c16-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@technetiumm?si=kCBnDjWJ3YvOt9P5" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c16.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c16.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">TECHNETIUM</p>
+								<p class="tooltip-subscribers-count">986K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/piKJOD2s8KY?si=FNyJu0sg7S8moekw" target="_blank">
+							Give me 180 secs and CODING will be your addiction.
+						</a>
+
+					</p>
+					<p class="video-author">TECHNETIUM</p>
+					<p class="video-stats">500K views &#183; 1 day ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c17 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/nCZbZyyuHRg?si=kj4eLF313cBOuLiJ" target="_blank">
+					<img src="channel-pictures/c17-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@theempowermente?si=PVta_TjzzuPsdjvQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c17.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c17.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Eray Sona</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/nCZbZyyuHRg?si=kj4eLF313cBOuLiJ" target="_blank">
+							How to Learn Coding FAST And Make Cool Stuff
+						</a>
+
+					</p>
+					<p class="video-author">Eray Sona</p>
+					<p class="video-stats">2.4M views &#183; 15 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c18 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/yqaLSlPOUxM?si=3pPloTPhII1wegIA" target="_blank">
+					<img src="channel-pictures/c18-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@lundeveloper?si=qFiIf8uaT4Hu_d62" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c18.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c18.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Lun Dev Code</p>
+								<p class="tooltip-subscribers-count">886K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/yqaLSlPOUxM?si=3pPloTPhII1wegIA" target="_blank">
+							Create Crazy 3D Image Slider Effects Using CSS Only
+						</a>
+
+					</p>
+					<p class="video-author">Lun Dev Code</p>
+					<p class="video-stats">9.1M views &#183; 7 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c19 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/tCqqF3GlrzM?si=M7RD7QIZAHX25glB" target="_blank">
+					<img src="channel-pictures/c19-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@shadeofcode?si=32-IFVu3BdanBs2G" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c19.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c19.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Shade of Code</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/tCqqF3GlrzM?si=M7RD7QIZAHX25glB" target="_blank">
+							Why Web Dev has SUDDENLY EXPLODED
+						</a>
+
+					</p>
+					<p class="video-author">Shade of Code</p>
+					<p class="video-stats">1.2M views &#183; 21 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c20 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/c9uOkTarw64?si=EMpz1IIseZdVV7vg" target="_blank">
+					<img src="channel-pictures/c20-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtu.be/c9uOkTarw64?si=EMpz1IIseZdVV7vg" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c20.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c20.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">SRJMotivation</p>
+								<p class="tooltip-subscribers-count">62.8K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/c9uOkTarw64?si=EMpz1IIseZdVV7vg" target="_blank">
+							OUTWORK EVERYONE.
+						</a>
+
+					</p>
+					<p class="video-author">SRJMotivation</p>
+					<p class="video-stats">1.9M views &#183; 2years ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c21 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/U3aXWizDbQ4?si=JU3YJdlV3E2PrFxv" target="_blank">
+					<img src="channel-pictures/c21-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@theempowermente?si=PVta_TjzzuPsdjvQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c21.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c21.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Fireship</p>
+								<p class="tooltip-subscribers-count">586K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/U3aXWizDbQ4?si=JU3YJdlV3E2PrFxv" target="_blank">
+							C in 100 Seconds
+						</a>
+
+					</p>
+					<p class="video-author">Fireship</p>
+					<p class="video-stats">11M views &#183; 3 months ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c22 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/QYAnJ_QyCQg?si=gHeqjO6Kxznj3xJk" target="_blank">
+					<img src="channel-pictures/c22-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@theempowermente?si=PVta_TjzzuPsdjvQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c22.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c22.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Alastair</p>
+								<p class="tooltip-subscribers-count">386K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/QYAnJ_QyCQg?si=gHeqjO6Kxznj3xJk" target="_blank">
+							The pain of becoming yourself
+						</a>
+
+					</p>
+					<p class="video-author">Alastair</p>
+					<p class="video-stats">2.1M views &#183; 12 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c23 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/xdap5e3-DwM?si=ydRQJY_PBEalSX0f" target="_blank">
+					<img src="channel-pictures/c23-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@theempowermente?si=PVta_TjzzuPsdjvQ" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c23.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c23.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">CSSnippets</p>
+								<p class="tooltip-subscribers-count">596K Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/xdap5e3-DwM?si=ydRQJY_PBEalSX0f" target="_blank">
+							Advanced CSS Full Tutorial
+						</a>
+
+					</p>
+					<p class="video-author">CSSnippets</p>
+					<p class="video-stats">3.6M views &#183; 3 days ago</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- c24 -->
+		<div class="video-preview">
+			<div class="thumbnail-row">
+				<a href="https://youtu.be/uOcKF-aLHyw?si=FpS0Wjy6Wbhfxi1x" target="_blank">
+					<img src="channel-pictures/c24-thumbnail.avif" class="thumbnails" />
+				</a>
+				<div class="video-time">10:20</div>
+			</div>
+
+			<div class="video-info-grid">
+				<div class="channel-picture">
+					<div class="tool-tip-container">
+						<a href="https://youtube.com/@grindbuddy?si=MfHrsJgFM81P6Gdr" target="_blank">
+							<img class="profile-picture" src="channel-pictures/c24.jpg" />
+						</a>
+
+						<div class="tooltip">
+							<div>
+								<img class="tooltip-image" src="channel-pictures/c24.jpg">
+							</div>
+
+							<div class="tooltip-info">
+								<p class="tooltip-channel-name">Grind Buddy</p>
+								<p class="tooltip-subscribers-count">160M Subscribers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-info">
+					<p class="video-title">
+						<a href="https://youtu.be/uOcKF-aLHyw?si=FpS0Wjy6Wbhfxi1x" target="_blank">
+							How to Get Whatever You Want
+						</a>
+
+					</p>
+					<p class="video-author">Grind Buddy</p>
+					<p class="video-stats">1M views &#183; 12years ago</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
